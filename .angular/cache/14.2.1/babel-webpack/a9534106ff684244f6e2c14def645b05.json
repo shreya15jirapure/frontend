@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const environment = {\n  production: true,\n  apiGatewayURL: 'http://project2.infydevops.work.gd'\n};","map":null,"metadata":{},"sourceType":"module"}
