@@ -29,12 +29,10 @@ pipeline {
 
         stage('Deploy to s3') {
             steps {
-                sh "aws s3 sync dist/hadiya_products_admin/ s3://${S3_BUCKET_NAME} --delete --exact-timestamps"
+                sh "aws s3 sync dist/ s3://${S3_BUCKET_NAME} --delete --exact-timestamps"
             }
         }
         
-
-
         
     }
 }

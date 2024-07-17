@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiGatewayURL: 'http://project2.infydevops.work.gd'
+  apiGatewayURL: 'http://applicationLB-161533741.ap-southeast-1.elb.amazonaws.com'
 };
