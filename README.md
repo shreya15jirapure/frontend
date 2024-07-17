@@ -3,6 +3,7 @@
 ## Environment variables
 
 Update the following line in ```src/environments/environment.prod.ts```
+# update src/app/ app.components.ts
 
 apiGatewayURL = 'http://\<HOSTNAME\>:\<PORT\>'
 
